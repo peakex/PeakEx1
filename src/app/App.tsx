@@ -4,7 +4,7 @@ import { Ticker } from './components/Ticker';
 import { FadeIn } from './components/FadeIn';
 import { Sun, Moon, Instagram, MessageSquare } from 'lucide-react';
 import { XIcon, DiscordIcon } from './components/Icons';
-import peakLogo from '@/assets/6c1ad29fe28a41934639a5fda0cbf939b8d2ef87.png';
+import peakLogo from '../assets/6c1ad29fe28a41934639a5fda0cbf939b8d2ef87.png';
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
 
 export const ThemeContext = React.createContext({ theme: 'dark', toggleTheme: () => { } });
